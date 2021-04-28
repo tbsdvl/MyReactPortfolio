@@ -49,3 +49,93 @@ class Hero extends Component {
 }
 
 export default Hero;
+
+Intro Component
+
+import React, { Component } from 'react';
+
+class Intro extends Component {
+
+    render() {
+        return (
+            <div>
+                <img src="./images/seattle.jpg" alt="seattle"/>
+                <p>lorem ipsum</p>
+            </div>
+        )
+    }
+}
+
+export default Intro;
+
+Portfolio will have additional sub-components including a format for a page
+that displays individual projects with their descriptions and links
+
+Structure -> {
+    <Portfoio> (Component to handle all projects)
+        -> <Projects> (Component to store a project on homepage)
+            -> <Project> (Component to display a single project on a different page)
+}
+
+Projects will need to link to Project through Router
+to= paths will contain the project's path
+Project will contain a link to the deployed application
+Project will need to include the Footer Component
+Project will include links to the Github repositories
+
+Portfolio Component
+
+import React, { Component } from 'react';
+import Project from "./Projects"
+
+class Portfolio extends Component {
+    render() {
+        return (
+            <section>
+                <h2>Portfolio</h2>
+                <Projects />
+            </section>
+        )
+    }
+}
+
+export default Portfolio;
+
+Projects Component
+
+Project component will take props to pass to component
+
+import React, { Component } from 'react';
+import Project from './Project';
+
+class Projects extends Component {
+
+    render() {
+        return <Project to="" src="" paragraph="sometext"/>
+    }
+}
+
+export default Projects;
+
+Project Component
+
+import React { Component } from 'react';
+import Projects from './Projects';
+import Footer from './Footer';
+
+class Project extends Component {
+
+    render() {
+        return (
+            <article>
+                <Link to="path_to_github_project" {this.props.to}>
+                    <img src="link_to_image" alt="project" {this.props.src}/>
+                </Link>
+                    <h3>Description</h3>
+                        <p>{this.props.paragraph}</p>
+            </article>
+        )
+    }
+}
+
+export default Project;
