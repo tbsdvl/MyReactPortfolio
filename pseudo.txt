@@ -86,20 +86,42 @@ Project will include links to the Github repositories
 Portfolio Component
 
 import React, { Component } from 'react';
-import Project from "./Projects"
+import Project from "./Project"
 
 class Portfolio extends Component {
     render() {
         return (
             <section>
                 <h2>Portfolio</h2>
-                <Projects />
+                <Project to="/gedditdone" src="linktoimage" name="GedditDone" paragraph="sometext"/>
             </section>
         )
     }
 }
 
 export default Portfolio;
+
+Project Component
+
+import React { Component } from 'react';
+
+class Project extends Component {
+
+    render() {
+        return (
+            <article>
+                <Link to={this.props.to}>
+                {this.props.name}
+                    <img src={this.props.src} alt="project" />
+                </Link>
+                    <h3>Description</h3>
+                        <p>{this.props.paragraph}</p>
+            </article>
+        )
+    }
+}
+
+export default Project;
 
 Projects Component
 
@@ -117,25 +139,9 @@ class Projects extends Component {
 
 export default Projects;
 
-Project Component
+Next Todos:
+Add homepage link & route
+Make page components for six projects
+Link & Route projects between home page and project page
 
-import React { Component } from 'react';
-import Projects from './Projects';
-import Footer from './Footer';
-
-class Project extends Component {
-
-    render() {
-        return (
-            <article>
-                <Link to="path_to_github_project" {this.props.to}>
-                    <img src="link_to_image" alt="project" {this.props.src}/>
-                </Link>
-                    <h3>Description</h3>
-                        <p>{this.props.paragraph}</p>
-            </article>
-        )
-    }
-}
-
-export default Project;
+Portfolio can route the projects from home
