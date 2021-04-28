@@ -1,0 +1,13 @@
+Header Component
+
+import React, { Component } from 'react';
+
+class Header extends React.Component {
+    return (
+        <>
+        <header>
+            <h1>Triston Burns</h1>
+        </header>
+        </>
+    )
+}
