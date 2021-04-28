@@ -1,19 +1,3 @@
-Header Component
-
-import React, { Component } from 'react';
-
-class Header extends React.Component {
-    return (
-        <>
-        <header>
-            <h1>Triston Burns</h1>
-        </header>
-        </>
-    )
-}
-
-Nav Component
-
 import React, { Component } from 'react';
 
 class Nav extends Component {
@@ -33,19 +17,3 @@ class Nav extends Component {
 }
 
 export default Nav;
-
-Hero Component
-
-import React, { Component } from 'react';
-
-class Hero extends Component {
-    render() {
-        return (
-            <div>
-                <img src="https://images.unsplash.com/photo-1587242563826-a438ce9e3cc8?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2734&q=80" height="100%" width="100%>
-            </div>
-        )
-    }
-}
-
-export default Hero;
