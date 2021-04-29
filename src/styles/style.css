@@ -264,3 +264,107 @@ footer {
 footer p {
     margin: 0;
 }
+
+@media screen and (max-width: 802px){
+
+    .header h1 {
+        font-size: 25px;
+        padding: 0.5em;
+    }
+
+    #gif {
+        position: fixed;
+        top: 2em;
+        right: 4em;
+        height: 50px;
+    }
+
+    .navlist{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .hero p {
+        top: 7em;
+        font-size: 50px;
+    }
+
+    .intro {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .intro img{
+        width: 60%;
+    }
+
+    .showcase a {
+        font-size: 40px;
+    }
+
+    .card {
+        font-size: 15px;
+        padding: 20px;
+    }
+
+    .contact {
+        font-size: 20px;
+    }
+
+    .gedditdone {
+        position: relative;
+        top: 20em;
+        padding: 100px;
+        font-size: small;
+    }
+
+    .fitnesstracker {
+        position: relative;
+        top: 20em;
+        padding: 100px;
+        font-size: small;
+    }
+
+    .notetaker {
+        position: relative;
+        top: 20em;
+        padding: 100px;
+        font-size: small;
+    }
+
+    .employeetracker {
+        position: relative;
+        top: 20em;
+        padding: 100px;
+        font-size: small;
+    }
+
+    .ecommerce {
+        position: relative;
+        top: 20em;
+        padding: 100px;
+        font-size: small;
+    }
+
+    .teamprof {
+        position: relative;
+        top: 20em;
+        padding: 100px;
+        font-size: small;
+    }
+
+    .readmegen {
+        position: relative;
+        top: 20em;
+        padding: 100px;
+        font-size: small;
+    }
+    
+    
+    footer {
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+    }
+
+}
