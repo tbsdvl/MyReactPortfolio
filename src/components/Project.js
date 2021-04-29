@@ -1,19 +1,21 @@
-import React, { Component } from 'react';
-import { BrowserRouter as Link } from "react-router-dom";
+import React, { Component } from "react";
+import { Link } from "react-router-dom";
+import Content from "./Content";
 
 class Project extends Component {
-
-    render() {
-        return (
-            <article>
-                <Link to={this.props.to}>
-                    <img src={this.props.src} alt="project"/>
-                </Link>
-                    <h3>Description</h3>
-                        <p>{this.props.paragraph}</p>
-            </article>
-        )
-    }
+  render() {
+      return (
+        <article className="project">
+          <Link to={this.props.to}>{this.props.name}</Link>
+          <div>
+            <img src={this.props.src} alt="project"/>
+                <h3>{this.props.description}</h3>
+                    <p>{this.props.paragraph}</p>
+            </div>
+          <Content />
+        </article>
+      );
+  }
 }
 
 export default Project;

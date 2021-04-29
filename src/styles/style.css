@@ -1,0 +1,164 @@
+* {
+    font-family: 'Biryani', sans-serif;
+}
+
+body {
+    margin: 0;
+    background-color: #110d1d;
+    color: whitesmoke;
+    display: inline;
+}
+
+.header {
+    position: fixed;
+    width: 100%;
+    background-color: #110d1d;
+    z-index: 1;
+}
+
+.header h1 {
+    font-family: 'Aldrich', sans-serif;
+    font-size: 55px;
+    padding: 0.5em;
+}
+
+#gif {
+    position: fixed;
+    top: 2em;
+    right: 4em;
+}
+
+.navlist {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    top: 2.2em;
+    background-color: #C79A5C;
+    padding: 10px;
+    margin: 0;
+}
+
+.navlist li {
+    list-style-type: none;
+}
+
+.navlist li a {
+    font-family: 'Capriola', sans-serif;
+    font-size: 30px;
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.hero {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background-color: #3a344e;
+}
+
+.hero img {
+    bottom: 0;
+}
+
+.hero p {
+    position: absolute;
+    top: 2em;
+    font-family: 'Syncopate', sans-serif;
+    font-size: 100px;
+    z-index: 0;
+    padding: 0.5em;
+    text-shadow: 3px 3px #000;
+}
+
+.intro {
+    display: flex;
+    flex-direction: row;
+    background-color: #3a344e;
+}
+
+.intro img{
+    padding: 50px;
+    height: 20%;
+    width: 30%;
+    border-radius: 100%;
+}
+
+.introinfo {
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+}
+
+.portback {
+    background-image: url("https://images.unsplash.com/photo-1537420327992-d6e192287183?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2734&q=80")
+}
+
+.portfolio {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+#portfolio {
+    padding: 30px;
+    font-size: 50px;
+    margin: 0;
+}
+
+.portfolio img {
+    height: 50%;
+    width: 60%;
+}
+
+.portfolio a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.showcase {
+    font-size: 30px;
+}
+
+.showcase a{
+    font-size: 100px;
+}
+
+.showcase img {
+    height: 60%;
+    width: 50%;
+}
+
+.sidebyside {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+}
+
+.card {
+    font-size: 30px;
+    padding: 20px;
+}
+
+
+.project img {
+    border-radius: 100%;
+}
+
+.contact {
+    text-align: center;
+    font-size: 40px;
+}
+
+.contact a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+footer {
+    text-align: center;
+    background-color: #080602;
+}
+
+footer p {
+    margin: 0;
+}
