@@ -9,7 +9,7 @@ class Intro extends Component {
                 <div className="introinfo">
                 <h2>About Me</h2>
                 <p>I am an aspiring web developer with a background in studying Data Science from Arizona
-                    State University. I develop applications using crucial technologies such as React, express, and node.js. In my free time, I like to build miniatures, enjoy the outdoors, and code.
+                    State University. I develop applications using technologies such as React, express, and node.js. In my free time, I like to build miniatures, enjoy the outdoors, and code.
                 </p>
                 </div>
             </section>
