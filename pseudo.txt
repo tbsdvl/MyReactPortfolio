@@ -222,3 +222,23 @@ class Home extends Component {
 }
 
 export default Home;
+
+pages components setup
+
+import React from 'react';
+
+function componentName() {
+    return (
+    <div className="name_of_project">
+        <h1>Project Title</h1>
+        <img src="some_picture" alt="project_name" />
+        <h3>Description</h3>
+        <p>Some description</p>
+        <p>Link to GitHub repository: <a href="link_to_github" rel="noreferrer" target="_blank">Project</a></p>
+        <p>Link to deployed application: <a href="link_to_deployed_app"</a></p>
+    </div>
+
+    )
+}
+
+export default componentName;

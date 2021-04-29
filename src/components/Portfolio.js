@@ -14,7 +14,7 @@ class Portfolio extends Component {
               to="/gedditdone"
               src="https://images.unsplash.com/photo-1584549239925-5554aa6b9183?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1567&q=80"
               description={description}
-              paragraph="GedditDone"
+              paragraph="This is an application that connects employers and job seekers. This app will allow the employers to view a list of services that job seekers provide."
               name="GedditDone"
             />
           </div>

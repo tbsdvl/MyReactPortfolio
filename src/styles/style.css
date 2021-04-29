@@ -4,7 +4,7 @@
 
 body {
     margin: 0;
-    background-color: #110d1d;
+    background-color: #3a344e;
     color: whitesmoke;
     display: inline;
 }
@@ -139,14 +139,112 @@ body {
     padding: 20px;
 }
 
+.project a {
+    background-color: #110d1d;
+    padding: 10px;
+    border-radius: 15px;
+}
 
 .project img {
     border-radius: 100%;
 }
 
+.gedditdone {
+    padding: 275px;
+}
+
+.gedditdone img {
+    width: 100%;
+}
+
+.gedditdone a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.fitnesstracker {
+    padding: 275px;
+}
+
+.fitnesstracker img {
+    width: 100%;
+}
+
+.fitnesstracker a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.notetaker {
+    padding: 275px;
+}
+
+.notetaker img {
+    width: 100%;
+}
+
+.notetaker a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.employeetracker {
+    padding: 275px;
+}
+
+.employeetracker img {
+    width: 100%;
+}
+
+.employeetracker a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.ecommerce {
+    padding: 275px;
+}
+
+.ecommerce img {
+    width: 100%;
+}
+
+.ecommerce a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.teamprof {
+    padding: 275px;
+}
+
+.teamprof img {
+    width: 100%;
+}
+
+.teamprof a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.readmegen {
+    padding: 275px;
+}
+
+.readmegen img {
+    width: 100%;
+}
+
+.readmegen a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+
 .contact {
+    background-color: #110d1d;
     text-align: center;
     font-size: 40px;
+    padding: 30px;
 }
 
 .contact a {
