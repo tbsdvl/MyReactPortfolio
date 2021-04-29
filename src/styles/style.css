@@ -83,6 +83,10 @@ body {
     border-radius: 100%;
 }
 
+.intro p {
+    font-size: 25px;
+}
+
 .introinfo {
     display: flex;
     flex-direction: column;
