@@ -1,5 +1,7 @@
 import React, { Component } from "react";
 
+// Render the Hero image on the home page
+
 class Hero extends Component {
   render() {
     return (

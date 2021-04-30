@@ -1,5 +1,7 @@
 import React from "react";
 
+// README Generator project page component
+
 function ReadmeGen() {
   return (
     <div className="readmegen">

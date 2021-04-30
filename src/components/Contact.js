@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 
+// Render the home page's contact information above the footer
+
 class Contact extends Component {
     render() {
         return (

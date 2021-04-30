@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 
+// Render the nav tab in the master header div
+
 class Nav extends Component {
     render() {
         return (

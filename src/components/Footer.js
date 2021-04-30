@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 
+// Render the site's footer at the bottom of the page
+
 class Footer extends Component {
     render() {
         return (

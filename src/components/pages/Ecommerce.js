@@ -1,5 +1,7 @@
 import React from "react";
 
+// Ecommerce project page component
+
 function Ecommerce() {
   return (
     <div className="ecommerce">
