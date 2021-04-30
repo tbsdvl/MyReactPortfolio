@@ -4,7 +4,7 @@ of Arizona Coding Bootcamp. On my site, you may also check out the links to my G
 Please enjoy these projects as much as I did while coding them!
 
 # Preview
-[Link](./reactportfolio.png)
+![Link](./reactportfolio.png)
 
 # Link to my Portfolio
 
