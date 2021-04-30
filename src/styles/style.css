@@ -18,7 +18,7 @@ body {
 
 .header h1 {
     font-family: 'Aldrich', sans-serif;
-    font-size: 55px;
+    font-size: 3.5rem;
     padding: 0.5em;
 }
 
@@ -44,7 +44,7 @@ body {
 
 .navlist li a {
     font-family: 'Capriola', sans-serif;
-    font-size: 30px;
+    font-size: 2rem;
     text-decoration: none;
     color: whitesmoke;
 }
@@ -64,7 +64,7 @@ body {
     position: absolute;
     top: 2em;
     font-family: 'Syncopate', sans-serif;
-    font-size: 100px;
+    font-size: 6.2rem;
     z-index: 0;
     padding: 0.5em;
     text-shadow: 3px 3px #000;
@@ -84,7 +84,7 @@ body {
 }
 
 .intro p {
-    font-size: 25px;
+    font-size: 1.5rem;
 }
 
 .introinfo {
@@ -105,7 +105,7 @@ body {
 
 #portfolio {
     padding: 30px;
-    font-size: 50px;
+    font-size: 4rem;
     margin: 0;
 }
 
@@ -120,7 +120,7 @@ body {
 }
 
 .showcase {
-    font-size: 30px;
+    font-size: 1.5rem;
     padding: 20px;
 }
 
@@ -136,11 +136,11 @@ body {
 .sidebyside {
     display: flex;
     flex-direction: row;
-    justify-content:space-around;
+    justify-content: space-around;
 }
 
 .card {
-    font-size: 30px;
+    font-size: 1.5rem;
     padding: 20px;
 }
 
@@ -155,7 +155,7 @@ body {
 }
 
 .paragraph {
-    font-size: 25px;
+    font-size: 1.3rem;
     background-color: #110d1d;
     border-radius: 15px;
 }
@@ -254,7 +254,7 @@ body {
 .contact {
     background-color: #110d1d;
     text-align: center;
-    font-size: 40px;
+    font-size: 2.5rem;
     padding: 30px;
 }
 
@@ -293,7 +293,7 @@ footer p {
 
     .hero p {
         top: 7em;
-        font-size: 50px;
+        font-size: 3.125rem;
     }
 
     .intro {
@@ -306,21 +306,21 @@ footer p {
     }
 
     .showcase a {
-        font-size: 40px;
+        font-size: 2.5rem;
     }
 
     .card {
-        font-size: 10px;
+        font-size: 0.625rem;
         padding: 20px;
     }
 
     
 .paragraph {
-    font-size: 13px;
+    font-size: 0.813rem;
 }
 
     .contact {
-        font-size: 20px;
+        font-size: 1.25rem;
     }
 
     .gedditdone {
