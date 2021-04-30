@@ -12,6 +12,12 @@ import Ecommerce from "./Ecommerce";
 import TeamProf from "./TeamProf";
 import ReadmeGen from "./ReadmeGen";
 
+// Using imported page components, route the user
+// to different project pages given a specific url path.
+// PageRoute will present the home page given '/'
+// paths including project names will direct to a 
+// corresponding project page
+
 class PageRoute extends Component {
     render() {
         return (

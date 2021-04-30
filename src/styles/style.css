@@ -121,6 +121,7 @@ body {
 
 .showcase {
     font-size: 30px;
+    padding: 20px;
 }
 
 .showcase a{
@@ -151,6 +152,12 @@ body {
 
 .project img {
     border-radius: 100%;
+}
+
+.paragraph {
+    font-size: 25px;
+    background-color: #110d1d;
+    border-radius: 15px;
 }
 
 .gedditdone {
@@ -306,6 +313,11 @@ footer p {
         font-size: 10px;
         padding: 20px;
     }
+
+    
+.paragraph {
+    font-size: 13px;
+}
 
     .contact {
         font-size: 20px;

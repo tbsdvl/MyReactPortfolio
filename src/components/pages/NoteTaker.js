@@ -1,5 +1,7 @@
 import React from "react";
 
+// Note Taker project page component
+
 function NoteTaker() {
   return (
     <div className="notetaker">

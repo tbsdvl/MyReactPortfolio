@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 
+// Render the About Me section on the home page
+
 class Intro extends Component {
 
     render() {

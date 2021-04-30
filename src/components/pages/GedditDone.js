@@ -1,5 +1,7 @@
 import React from "react";
 
+// GedditDone project page component
+
 function GedditDone() {
   return (
     <div className="gedditdone">

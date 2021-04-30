@@ -1,5 +1,7 @@
 import React from "react";
 
+// Fitness Tracker project page component
+
 function FitnessTracker() {
   return (
     <div className="fitnesstracker">

@@ -1,5 +1,7 @@
 import React from "react";
 
+// Team Profile project page component
+
 function TeamProf() {
   return (
     <div className="teamprof">

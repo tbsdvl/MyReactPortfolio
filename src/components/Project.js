@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 
+// Render the project article inside the portfolio 
+//on the home page
 
 class Project extends Component {
   render() {
@@ -12,9 +14,8 @@ class Project extends Component {
           <div>
             <img src={this.props.src} alt="project"/>
                 <h3>{this.props.description}</h3>
-                    <p>{this.props.paragraph}</p>
+                    <p className="paragraph">{this.props.paragraph}</p>
             </div>
-          {/* <Content /> */}
         </article>
       );
   }

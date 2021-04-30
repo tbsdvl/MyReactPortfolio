@@ -1,5 +1,7 @@
 import React from "react";
 
+// Employee Tracker project page component
+
 function EmployeeTracker() {
   return (
     <div className="employeetracker">

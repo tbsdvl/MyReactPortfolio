@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 import Nav from './Nav';
 
+// Render the site's header inside the master header div
+
 class Header extends Component {
   render() {
     return (
