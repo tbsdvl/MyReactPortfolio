@@ -76,6 +76,14 @@ body {
     background-color: #3a344e;
 }
 
+.intro h2 {
+    background-color: #292046;
+    border-radius: 10px;
+    padding: 12px;
+    font-size: 1.7rem;
+    width: 6em;
+}
+
 .intro img{
     padding: 50px;
     height: 20%;
@@ -85,6 +93,9 @@ body {
 
 .intro p {
     font-size: 1.5rem;
+    background-color: #292046;
+    border-radius: 10px;
+    text-align: center;
 }
 
 .introinfo {
