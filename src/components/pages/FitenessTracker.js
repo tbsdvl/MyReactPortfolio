@@ -9,6 +9,9 @@ function FitnessTracker() {
       <h3>Description</h3>
       <p>This is a simple fitness tracker application. A user may add a new exercise with some data and keep track of
           their exercise routine. Multiple exercises' times are totaled to show the user the duration of their routine.
+
+      Technologies: JavaScript, Node.js, Mongoose, Service Worker
+      Skills: Code Mongoose schemas to collect resistance or cardio data from user, route data to and from Express.js server, include service workers for online and offline app usage.
       </p>
       <p>
         Link to GitHub repository: <a href="https://github.com/tbsdvl/MyFitnessTracker" rel="noreferrer" target="_blank">Fitness Tracker Repo</a>
